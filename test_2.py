@@ -46,13 +46,13 @@ def createStr(p):
 			l -= 1
 	if mon == []:
 		if (p != '0.0'):
-			print('\nРезультат:\n'+iNum(int(rasb[0]),k)+p+'\n')
+			print('\nРезультат:\n'+iNum(int(rasb[0]),k)+p[1:]+'\n')
 		else:
 			print('\nРезультат:\n'+iNum(int(rasb[0]),k)+'\n')
 			
 # ПРОВЕРКА! дробной части без скобок 
 
-# 	print('Дробная часть результата:\n'+p+'\n')
+	print('Дробная часть результата:\n'+p+'\n')
 	
 
 # Метод для перевода из десятичной в К-ичную СС дробной части числа
@@ -80,8 +80,8 @@ fNum(result,k)
 
 # ПРОВЕРКА! содержимого массивов с данными
 
-# print(perAr)
-# print(perArDouble)
+print(perAr)
+print(perArDouble)
 
 
 # P.S.
